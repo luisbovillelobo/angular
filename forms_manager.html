@@ -1,0 +1,18 @@
+<div ng-cloak>
+	<nav class="breadcrumb">
+		<a href="#/home" ng-bind="'forms_manager.home' | translate"></a>
+		<a class="active" ng-bind="'forms_manager.title' | translate"></a>
+	</nav>
+	<div class="box-panel selected-box-bordered text-justify">
+		<h2> Administrador de formularios </h2>
+		<button class="btn btn-ghost" ui-sref="userForms"><span class="glyphicon glyphicon-home"></span>
+			USER 
+		</button>
+		<button class="btn btn-ghost"  ui-sref="showFormsView"><span class="glyphicon glyphicon-wrench"></span>
+			ADMIN 
+		</button>
+		<button class="btn btn-ghost" ui-sref="interviewsList"><span class="glyphicon glyphicon-briefcase"></span>
+			INTERVIEWER 
+		</button>
+	</div>
+</div>
